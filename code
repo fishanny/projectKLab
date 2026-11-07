@@ -1,0 +1,9 @@
+void main() {
+  print("heya") ;
+  print("whats ur name?") ;
+  string name = stdin.readLineSync()! ;
+  print("ok, ur name is $name") ;
+  print("whats ur age?") ;
+  int age = int.parse(stdin.readLineSync()!) ;
+  print("got it, you $name , $age years old") ;
+}
