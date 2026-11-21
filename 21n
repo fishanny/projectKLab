@@ -1,0 +1,36 @@
+import 'dart:io' ;
+void main() { //task1
+    //List<int> num = [1,2,3,4,5,6,7] ;
+    //for (int i = num.length - 1; i >= 0; i--) 
+        //print(num[i]) ;
+        //Task2
+    List<int> arr = [1, 13, 3, 4, 5, 21, 7, 8, 9, 10, 11];
+    int k = 0;
+    List<int> odds = [];
+    for (int i = arr.length - 1; i >= 0; i--) {
+        if (arr[i] % 2 != 0) {
+            odds.add(arr[i]);
+            k++;
+    }
+  }
+  print(odds); 
+  print('K = $k');        
+}
+
+//Task3
+// List<int> arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  //int n = arr.length;
+
+//  int k = 0;
+//  List<int> even = [];
+
+//  for (int i = arr.length - 1; i >= 0; i--) {
+//    if (arr[i] % 2 == 0) {
+      //even.add(arr[i]);
+    //  k++;
+  //  }
+// }
+//  print(even.join(', ')); 
+  //print('K = $k');         
+//}
+//}

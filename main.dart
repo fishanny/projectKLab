@@ -8,7 +8,7 @@ void main() {
     //print('week[$i] = ${week[i]}') ;
     //for (int num in week) {
       //print(num) ;
-      //int j=0 ;
+      //int j= ;
       //while(j<week.length) {
        // print(week[j]) ;
         //j++ ;
